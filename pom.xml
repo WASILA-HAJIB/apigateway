@@ -19,12 +19,13 @@
     <description>Educational Spring Cloud reference project</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
         <spring-cloud.version>2025.1.2</spring-cloud.version>
     </properties>
 
     <modules>
         <module>services/customer-service</module>
+        <module>services/api-gateway1</module>
     </modules>
 
     <dependencyManagement>

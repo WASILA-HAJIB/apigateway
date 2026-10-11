@@ -1,0 +1,13 @@
+### 1. Ajouter un client (POST)
+POST http://localhost:8081/api/customers
+Content-Type: application/json
+
+{
+  "firstName": "Wasila",
+  "lastName": "Hajib",
+  "email": "wasila@email.com",
+  "phone": "0600000000"
+}
+
+### 2. Afficher tous les clients (GET)
+GET http://localhost:8081/api/customers
